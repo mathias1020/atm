@@ -8,12 +8,11 @@ def login(accounts, account_holder):
     
     for account in accounts:
         if account["username"] == account_holder["username"]:
-            print(account_holder)
             if account["pin"] == account_holder["pin"]:
                 account_holder["balance"] = account["balance"]
                 print(account_holder)
                 return account_holder
-                
+
 def load_accounts():
 
     accounts = []
