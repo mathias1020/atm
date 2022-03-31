@@ -22,7 +22,6 @@ import sys
 def run():
 
     accounts = load_accounts()
-    print(accounts)
 
     account_holder = {
         "username": " ",
